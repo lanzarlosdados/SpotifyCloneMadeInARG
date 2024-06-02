@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-struct Home: View {
+struct HomeScreen: View {
     
     var body: some View {
         NavigationStack {
@@ -31,5 +31,5 @@ struct Home: View {
 }
 
 #Preview {
-    Home()
+    HomeScreen()
 }
