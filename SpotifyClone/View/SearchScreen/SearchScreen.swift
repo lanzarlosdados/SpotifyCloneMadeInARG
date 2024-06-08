@@ -8,8 +8,32 @@
 import SwiftUI
 
 struct SearchScreen: View {
+    @State private var searchText = ""
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List  {
+                ForEach(1..<3) { number in
+                    SectionSearch()
+                        .padding(
+                            EdgeInsets(
+                                top: 0,
+                                leading: 6,
+                                bottom: 0,
+                                trailing: 6
+                            )
+                        )
+                }
+                .listRowInsets(EdgeInsets())
+                .listRowSeparator(.hidden)
+            }
+            .listStyle(.plain)
+            .navigationTitle("Search")
+            .searchable(
+                text: $searchText,
+                prompt: "Artist, song or podcast"
+            )
+        }
     }
 }
 

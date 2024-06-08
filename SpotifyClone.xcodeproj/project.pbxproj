@@ -13,9 +13,14 @@
 		06EBD3722BF97170009C7EC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EBD3712BF97170009C7EC6 /* Preview Assets.xcassets */; };
 		06EBD3792BF974EB009C7EC6 /* CardViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD3782BF974EB009C7EC6 /* CardViewHome.swift */; };
 		06EBD37B2BF98D2B009C7EC6 /* SectionViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD37A2BF98D2B009C7EC6 /* SectionViewHome.swift */; };
-		06EBD37F2BFAC242009C7EC6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD37E2BFAC242009C7EC6 /* Home.swift */; };
+		06EBD37F2BFAC242009C7EC6 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD37E2BFAC242009C7EC6 /* HomeScreen.swift */; };
 		06EBD3812BFAC37A009C7EC6 /* HeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD3802BFAC37A009C7EC6 /* HeaderSectionView.swift */; };
 		06EBD3832BFAC3CB009C7EC6 /* LazyGridCardViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD3822BFAC3CB009C7EC6 /* LazyGridCardViewHome.swift */; };
+		06EBD3862C0CE662009C7EC6 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD3852C0CE662009C7EC6 /* SearchScreen.swift */; };
+		06EBD3882C0D25BA009C7EC6 /* SectionSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD3872C0D25BA009C7EC6 /* SectionSearch.swift */; };
+		06EBD38A2C0D27A3009C7EC6 /* HeaderSectionSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD3892C0D27A3009C7EC6 /* HeaderSectionSearch.swift */; };
+		06EBD38C2C0D27C0009C7EC6 /* GridCardViewSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD38B2C0D27C0009C7EC6 /* GridCardViewSearch.swift */; };
+		06EBD38E2C150F7D009C7EC6 /* ContainerViewSearchGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD38D2C150F7D009C7EC6 /* ContainerViewSearchGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +31,14 @@
 		06EBD3712BF97170009C7EC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06EBD3782BF974EB009C7EC6 /* CardViewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewHome.swift; sourceTree = "<group>"; };
 		06EBD37A2BF98D2B009C7EC6 /* SectionViewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewHome.swift; sourceTree = "<group>"; };
-		06EBD37E2BFAC242009C7EC6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		06EBD37E2BFAC242009C7EC6 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		06EBD3802BFAC37A009C7EC6 /* HeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionView.swift; sourceTree = "<group>"; };
 		06EBD3822BFAC3CB009C7EC6 /* LazyGridCardViewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridCardViewHome.swift; sourceTree = "<group>"; };
+		06EBD3852C0CE662009C7EC6 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		06EBD3872C0D25BA009C7EC6 /* SectionSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionSearch.swift; sourceTree = "<group>"; };
+		06EBD3892C0D27A3009C7EC6 /* HeaderSectionSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionSearch.swift; sourceTree = "<group>"; };
+		06EBD38B2C0D27C0009C7EC6 /* GridCardViewSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCardViewSearch.swift; sourceTree = "<group>"; };
+		06EBD38D2C150F7D009C7EC6 /* ContainerViewSearchGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewSearchGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,21 +91,34 @@
 		06EBD37C2BFAC206009C7EC6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				06EBD37D2BFAC21D009C7EC6 /* Home */,
+				06EBD3842C0CE648009C7EC6 /* SearchScreen */,
+				06EBD37D2BFAC21D009C7EC6 /* HomeScreen */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		06EBD37D2BFAC21D009C7EC6 /* Home */ = {
+		06EBD37D2BFAC21D009C7EC6 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
-				06EBD37E2BFAC242009C7EC6 /* Home.swift */,
+				06EBD37E2BFAC242009C7EC6 /* HomeScreen.swift */,
 				06EBD3782BF974EB009C7EC6 /* CardViewHome.swift */,
 				06EBD37A2BF98D2B009C7EC6 /* SectionViewHome.swift */,
 				06EBD3802BFAC37A009C7EC6 /* HeaderSectionView.swift */,
 				06EBD3822BFAC3CB009C7EC6 /* LazyGridCardViewHome.swift */,
 			);
-			path = Home;
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		06EBD3842C0CE648009C7EC6 /* SearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				06EBD3852C0CE662009C7EC6 /* SearchScreen.swift */,
+				06EBD3872C0D25BA009C7EC6 /* SectionSearch.swift */,
+				06EBD3892C0D27A3009C7EC6 /* HeaderSectionSearch.swift */,
+				06EBD38B2C0D27C0009C7EC6 /* GridCardViewSearch.swift */,
+				06EBD38D2C150F7D009C7EC6 /* ContainerViewSearchGrid.swift */,
+			);
+			path = SearchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,10 +193,15 @@
 			files = (
 				06EBD3792BF974EB009C7EC6 /* CardViewHome.swift in Sources */,
 				06EBD37B2BF98D2B009C7EC6 /* SectionViewHome.swift in Sources */,
-				06EBD37F2BFAC242009C7EC6 /* Home.swift in Sources */,
+				06EBD38E2C150F7D009C7EC6 /* ContainerViewSearchGrid.swift in Sources */,
+				06EBD37F2BFAC242009C7EC6 /* HomeScreen.swift in Sources */,
+				06EBD38C2C0D27C0009C7EC6 /* GridCardViewSearch.swift in Sources */,
+				06EBD3862C0CE662009C7EC6 /* SearchScreen.swift in Sources */,
 				06EBD3812BFAC37A009C7EC6 /* HeaderSectionView.swift in Sources */,
+				06EBD3882C0D25BA009C7EC6 /* SectionSearch.swift in Sources */,
 				06EBD36D2BF9716E009C7EC6 /* ContentView.swift in Sources */,
 				06EBD36B2BF9716E009C7EC6 /* SpotifyCloneApp.swift in Sources */,
+				06EBD38A2C0D27A3009C7EC6 /* HeaderSectionSearch.swift in Sources */,
 				06EBD3832BFAC3CB009C7EC6 /* LazyGridCardViewHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

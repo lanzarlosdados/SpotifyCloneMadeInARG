@@ -9,7 +9,17 @@ import SwiftUI
 
 struct HeaderSectionSearch: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, World!")
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .multilineTextAlignment(.leading)
+            .padding(
+                EdgeInsets(
+                    top: 10,
+                    leading: 6,
+                    bottom: 10,
+                    trailing: 0
+                )
+            )
     }
 }
 

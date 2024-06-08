@@ -25,7 +25,7 @@ struct HomeScreen: View {
                 }
             }
             .listStyle(.plain)
-            .listRowSpacing(20)
+            .listRowSpacing(30)
         }
     }
 }
