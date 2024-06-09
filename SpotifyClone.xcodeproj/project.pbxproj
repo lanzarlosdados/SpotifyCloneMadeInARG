@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06A3E7D72C165C0B00C6CA74 /* PlaylistScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E7D62C165C0B00C6CA74 /* PlaylistScreen.swift */; };
+		06A3E7D92C165DA400C6CA74 /* SectionSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E7D82C165DA400C6CA74 /* SectionSongView.swift */; };
 		06EBD36B2BF9716E009C7EC6 /* SpotifyCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD36A2BF9716E009C7EC6 /* SpotifyCloneApp.swift */; };
 		06EBD36D2BF9716E009C7EC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD36C2BF9716E009C7EC6 /* ContentView.swift */; };
 		06EBD36F2BF97170009C7EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EBD36E2BF97170009C7EC6 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06A3E7D62C165C0B00C6CA74 /* PlaylistScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistScreen.swift; sourceTree = "<group>"; };
+		06A3E7D82C165DA400C6CA74 /* SectionSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionSongView.swift; sourceTree = "<group>"; };
 		06EBD3672BF9716E009C7EC6 /* SpotifyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EBD36A2BF9716E009C7EC6 /* SpotifyCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCloneApp.swift; sourceTree = "<group>"; };
 		06EBD36C2BF9716E009C7EC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06A3E7D52C165BE900C6CA74 /* PlaylistScreen */ = {
+			isa = PBXGroup;
+			children = (
+				06A3E7D62C165C0B00C6CA74 /* PlaylistScreen.swift */,
+				06A3E7D82C165DA400C6CA74 /* SectionSongView.swift */,
+			);
+			path = PlaylistScreen;
+			sourceTree = "<group>";
+		};
 		06EBD35E2BF9716E009C7EC6 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +104,7 @@
 		06EBD37C2BFAC206009C7EC6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				06A3E7D52C165BE900C6CA74 /* PlaylistScreen */,
 				06EBD3842C0CE648009C7EC6 /* SearchScreen */,
 				06EBD37D2BFAC21D009C7EC6 /* HomeScreen */,
 			);
@@ -194,6 +208,7 @@
 				06EBD3792BF974EB009C7EC6 /* CardViewHome.swift in Sources */,
 				06EBD37B2BF98D2B009C7EC6 /* SectionViewHome.swift in Sources */,
 				06EBD38E2C150F7D009C7EC6 /* ContainerViewSearchGrid.swift in Sources */,
+				06A3E7D72C165C0B00C6CA74 /* PlaylistScreen.swift in Sources */,
 				06EBD37F2BFAC242009C7EC6 /* HomeScreen.swift in Sources */,
 				06EBD38C2C0D27C0009C7EC6 /* GridCardViewSearch.swift in Sources */,
 				06EBD3862C0CE662009C7EC6 /* SearchScreen.swift in Sources */,
@@ -203,6 +218,7 @@
 				06EBD36B2BF9716E009C7EC6 /* SpotifyCloneApp.swift in Sources */,
 				06EBD38A2C0D27A3009C7EC6 /* HeaderSectionSearch.swift in Sources */,
 				06EBD3832BFAC3CB009C7EC6 /* LazyGridCardViewHome.swift in Sources */,
+				06A3E7D92C165DA400C6CA74 /* SectionSongView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
