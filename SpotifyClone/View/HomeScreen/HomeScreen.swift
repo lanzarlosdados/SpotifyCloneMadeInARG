@@ -1,35 +1,35 @@
 //
-//  ListSongView.swift
+//  Home.swift
 //  SpotifyClone
 //
-//  Created by fabian zarate on 18/06/2024.
+//  Created by fabian zarate on 19/05/2024.
 //
-
 import SwiftUI
 
-struct ListSongView: View {
+struct HomeScreen: View {
+    
     var body: some View {
         NavigationStack {
             List  {
-                ForEach(1..<16) { number in
-                    SectionSongView()
+                ForEach(1..<6) { number in
+                    SectionViewHome()
                         .listRowSeparator(.hidden)
                         .listRowInsets(
                             .init(
                                 top: 0 ,
-                                leading: 16,
+                                leading: 0,
                                 bottom: 0,
-                                trailing: 16
+                                trailing: 0
                             )
                         )
                 }
             }
             .listStyle(.plain)
-            .listRowSpacing(20)
+            .listRowSpacing(30)
         }
     }
 }
 
 #Preview {
-    ListSongView()
+    HomeScreen()
 }

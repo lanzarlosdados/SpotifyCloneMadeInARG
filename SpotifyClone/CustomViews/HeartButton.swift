@@ -9,7 +9,14 @@ import SwiftUI
 
 struct HeartButton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            print("Botón con imagen presionado")
+        }) {
+            Image(systemName: "heart")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 28, height: 28)
+        }
     }
 }
 

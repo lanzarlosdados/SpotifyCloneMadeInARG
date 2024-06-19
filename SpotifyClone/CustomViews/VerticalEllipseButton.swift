@@ -9,7 +9,19 @@ import SwiftUI
 
 struct VerticalEllipseButton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            print("Botón de puntos verticales presionado")
+        }) {
+            VStack(spacing: 4) {
+                Circle()
+                    .frame(width: 5, height: 5)
+                Circle()
+                    .frame(width: 5, height: 5)
+                Circle()
+                    .frame(width: 5, height: 5)
+            }
+            .foregroundColor(.black)
+        }
     }
 }
 

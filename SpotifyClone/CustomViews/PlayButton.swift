@@ -9,7 +9,28 @@ import SwiftUI
 
 struct PlayButton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            print("Botón con imagen presionado")
+        }) {
+            ZStack {
+                Circle()
+                    .fill(Color.green)
+                Image(systemName: "play.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 25, height: 25)
+                    .foregroundColor(.white)
+                    .padding(
+                        EdgeInsets(
+                            top: 0,
+                            leading: 5,
+                            bottom: 0,
+                            trailing: 0
+                        )
+                    )
+            }
+            .frame(width: 60, height: 60)
+        }
     }
 }
 
