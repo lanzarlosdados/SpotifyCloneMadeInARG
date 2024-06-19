@@ -9,7 +9,18 @@ import SwiftUI
 
 struct PlaylistScreen: View {
     var body: some View {
-        ListSongView()
+        NavigationStack {
+            List  {
+                SectionAlbum()
+                ButtonsView()
+                    .listRowStyle()
+                ForEach(1..<16) { number in
+                    SectionSongView()
+                        .listRowStyle()
+                }
+            }
+            .listRowStyle()
+        }
     }
 }
 

@@ -10,12 +10,22 @@ import SwiftUI
 struct ButtonsView: View {
     var body: some View {
         HStack {
-            HStack {
+            HStack (spacing: 30) {
                 HeartButton()
                 VerticalEllipseButton()
             }
+            Spacer()
             PlayButton()
         }
+        .frame(maxWidth: .infinity)
+        .padding(
+            EdgeInsets(
+                top: 0,
+                leading: 0,
+                bottom: 40,
+                trailing: 0
+            )
+        )
     }
 }
 

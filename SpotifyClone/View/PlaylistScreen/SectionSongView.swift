@@ -15,13 +15,24 @@ struct SectionSongView: View {
                 .frame(width: 64, height: 61)
             SectionDescriptionSongViewHome()
         }
+        .padding(
+                EdgeInsets(
+                    top: 0,
+                    leading: 0,
+                    bottom: 20,
+                    trailing: 0
+                )
+        )
     }
 }
 
 struct SectionDescriptionSongViewHome: View {
     var body: some View {
         HStack {
-            VStack {
+            VStack (
+                alignment: .leading,
+                spacing: 6
+            ){
                 Text ("Alone")
                     .font(
                         .system(
@@ -30,12 +41,9 @@ struct SectionDescriptionSongViewHome: View {
                             design: .default
                         )
                     )
-                    .frame(
-                        maxWidth: .infinity,
-                        alignment: .leading
-                    )
                 SectionLyricsContainerView()
             }
+            Spacer()
             VerticalEllipseButton()
         }
         .frame(maxWidth: .infinity)
@@ -44,24 +52,12 @@ struct SectionDescriptionSongViewHome: View {
 
 struct SectionLyricsContainerView: View {
     var body: some View {
-        HStack {
+        HStack (){
             Image("Lyrics")
                  .scaledToFit()
                  .frame(width: 40, height: 15)
             Text ("Alan Walker")
-                .font(
-                    .system(
-                        size: 20,
-                        weight: .medium,
-                        design: .default
-                    )
-                )
-                .frame(
-                    maxWidth: .infinity,
-                    alignment: .leading
-                )
         }
-        .frame(maxWidth: .infinity)
     }
 }
 
