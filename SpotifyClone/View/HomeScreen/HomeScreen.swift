@@ -27,6 +27,13 @@ struct HomeScreen: View {
             .listStyle(.plain)
             .listRowSpacing(30)
         }
+        .background(
+                    LinearGradient(
+                        gradient: Gradient(colors: [Color.colorStart, Color.colorEnd]),
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                )
     }
 }
 

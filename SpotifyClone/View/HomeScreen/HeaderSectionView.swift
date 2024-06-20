@@ -14,15 +14,21 @@ struct HeaderSectionView: View {
                 .scaledToFit()
                 .frame(width: 58)
             
-            VStack (spacing: 8) {
+            VStack {
                 Text("Title description")
-                    .frame(maxWidth: .infinity,alignment: .leading)
+                    .frame(
+                        maxWidth: .infinity,
+                        alignment: .leading
+                    )
                 Text("Title section")
                     .font(.title)
-                    .frame(maxWidth: .infinity,alignment: .leading)
+                    .frame(
+                        maxWidth: .infinity,
+                        alignment: .leading
+                    )
             }
         }
-        .frame(maxWidth: .infinity,idealHeight: 58)
+        .frame(maxWidth: .infinity)
         .padding(.leading)
     }
 }

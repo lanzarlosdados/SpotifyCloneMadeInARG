@@ -19,8 +19,10 @@ struct LoginScreen: View {
                         )
                     Text ("Millions of songs")
                         .fontBold(size: 32)
+                        .foregroundColor(.white)
                     Text ("Free on Spotify.")
                         .fontBold(size: 32)
+                        .foregroundColor(.white)
                 }
                 .frame(alignment: .center)
                 ContainerButtonAuth()
@@ -38,7 +40,7 @@ struct LoginScreen: View {
             maxWidth: .infinity,
             maxHeight: .infinity
         )
-        
+        .background(.black)
     }
 }
 
