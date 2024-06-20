@@ -18,6 +18,9 @@
 		06A3E7EC2C24AE1E00C6CA74 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E7EB2C24AE1E00C6CA74 /* LoginScreen.swift */; };
 		06A3E7EF2C24AF7900C6CA74 /* AuthenticationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E7EE2C24AF7900C6CA74 /* AuthenticationButton.swift */; };
 		06A3E7F42C24C0E200C6CA74 /* SignUpFreeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E7F32C24C0E200C6CA74 /* SignUpFreeButton.swift */; };
+		06A3E7F72C24E1C000C6CA74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A3E7F62C24E1C000C6CA74 /* LaunchScreen.storyboard */; };
+		06A3E7F92C24E50600C6CA74 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E7F82C24E50600C6CA74 /* LoginButton.swift */; };
+		06A3E7FB2C24E58A00C6CA74 /* ContainerButtonAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E7FA2C24E58A00C6CA74 /* ContainerButtonAuth.swift */; };
 		06EBD36B2BF9716E009C7EC6 /* SpotifyCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD36A2BF9716E009C7EC6 /* SpotifyCloneApp.swift */; };
 		06EBD36D2BF9716E009C7EC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD36C2BF9716E009C7EC6 /* ContentView.swift */; };
 		06EBD36F2BF97170009C7EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EBD36E2BF97170009C7EC6 /* Assets.xcassets */; };
@@ -46,6 +49,9 @@
 		06A3E7EB2C24AE1E00C6CA74 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		06A3E7EE2C24AF7900C6CA74 /* AuthenticationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationButton.swift; sourceTree = "<group>"; };
 		06A3E7F32C24C0E200C6CA74 /* SignUpFreeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFreeButton.swift; sourceTree = "<group>"; };
+		06A3E7F62C24E1C000C6CA74 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06A3E7F82C24E50600C6CA74 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		06A3E7FA2C24E58A00C6CA74 /* ContainerButtonAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerButtonAuth.swift; sourceTree = "<group>"; };
 		06EBD3672BF9716E009C7EC6 /* SpotifyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EBD36A2BF9716E009C7EC6 /* SpotifyCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCloneApp.swift; sourceTree = "<group>"; };
 		06EBD36C2BF9716E009C7EC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				06A3E7EB2C24AE1E00C6CA74 /* LoginScreen.swift */,
+				06A3E7FA2C24E58A00C6CA74 /* ContainerButtonAuth.swift */,
 			);
 			path = LoginScreen;
 			sourceTree = "<group>";
@@ -117,6 +124,7 @@
 				06A3E7E42C220FC700C6CA74 /* HeartButton.swift */,
 				06A3E7EE2C24AF7900C6CA74 /* AuthenticationButton.swift */,
 				06A3E7F32C24C0E200C6CA74 /* SignUpFreeButton.swift */,
+				06A3E7F82C24E50600C6CA74 /* LoginButton.swift */,
 			);
 			path = CustomButtons;
 			sourceTree = "<group>";
@@ -145,6 +153,7 @@
 				06EBD37C2BFAC206009C7EC6 /* View */,
 				06EBD36A2BF9716E009C7EC6 /* SpotifyCloneApp.swift */,
 				06EBD36C2BF9716E009C7EC6 /* ContentView.swift */,
+				06A3E7F62C24E1C000C6CA74 /* LaunchScreen.storyboard */,
 				06EBD36E2BF97170009C7EC6 /* Assets.xcassets */,
 				06EBD3702BF97170009C7EC6 /* Preview Content */,
 			);
@@ -252,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A3E7F72C24E1C000C6CA74 /* LaunchScreen.storyboard in Resources */,
 				06EBD3722BF97170009C7EC6 /* Preview Assets.xcassets in Resources */,
 				06EBD36F2BF97170009C7EC6 /* Assets.xcassets in Resources */,
 			);
@@ -265,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06EBD3792BF974EB009C7EC6 /* CardViewHome.swift in Sources */,
+				06A3E7F92C24E50600C6CA74 /* LoginButton.swift in Sources */,
 				06EBD37B2BF98D2B009C7EC6 /* SectionViewHome.swift in Sources */,
 				06A3E7EA2C23474E00C6CA74 /* View+Extension.swift in Sources */,
 				06EBD38E2C150F7D009C7EC6 /* ContainerViewSearchGrid.swift in Sources */,
@@ -280,6 +291,7 @@
 				06A3E7E12C220FA000C6CA74 /* ButtonsView.swift in Sources */,
 				06EBD3882C0D25BA009C7EC6 /* SectionSearch.swift in Sources */,
 				06A3E7E72C23425E00C6CA74 /* SectionAlbum.swift in Sources */,
+				06A3E7FB2C24E58A00C6CA74 /* ContainerButtonAuth.swift in Sources */,
 				06A3E7E32C220FB900C6CA74 /* PlayButton.swift in Sources */,
 				06EBD36D2BF9716E009C7EC6 /* ContentView.swift in Sources */,
 				06EBD36B2BF9716E009C7EC6 /* SpotifyCloneApp.swift in Sources */,
@@ -426,6 +438,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -456,6 +469,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
