@@ -22,6 +22,9 @@
 		06A3E7F92C24E50600C6CA74 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E7F82C24E50600C6CA74 /* LoginButton.swift */; };
 		06A3E7FB2C24E58A00C6CA74 /* ContainerButtonAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E7FA2C24E58A00C6CA74 /* ContainerButtonAuth.swift */; };
 		06A3E7FD2C24F43D00C6CA74 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E7FC2C24F43D00C6CA74 /* Color+Extension.swift */; };
+		06A3E8022C264C1200C6CA74 /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E8012C264C1200C6CA74 /* MainTabbedView.swift */; };
+		06A3E8042C264CF800C6CA74 /* TabbedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E8032C264CF800C6CA74 /* TabbedItems.swift */; };
+		06A3E8072C264F1F00C6CA74 /* LibraryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3E8062C264F1F00C6CA74 /* LibraryScreen.swift */; };
 		06EBD36B2BF9716E009C7EC6 /* SpotifyCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD36A2BF9716E009C7EC6 /* SpotifyCloneApp.swift */; };
 		06EBD36D2BF9716E009C7EC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBD36C2BF9716E009C7EC6 /* ContentView.swift */; };
 		06EBD36F2BF97170009C7EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EBD36E2BF97170009C7EC6 /* Assets.xcassets */; };
@@ -54,6 +57,9 @@
 		06A3E7F82C24E50600C6CA74 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		06A3E7FA2C24E58A00C6CA74 /* ContainerButtonAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerButtonAuth.swift; sourceTree = "<group>"; };
 		06A3E7FC2C24F43D00C6CA74 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		06A3E8012C264C1200C6CA74 /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
+		06A3E8032C264CF800C6CA74 /* TabbedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedItems.swift; sourceTree = "<group>"; };
+		06A3E8062C264F1F00C6CA74 /* LibraryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryScreen.swift; sourceTree = "<group>"; };
 		06EBD3672BF9716E009C7EC6 /* SpotifyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EBD36A2BF9716E009C7EC6 /* SpotifyCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCloneApp.swift; sourceTree = "<group>"; };
 		06EBD36C2BF9716E009C7EC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +138,37 @@
 			path = CustomButtons;
 			sourceTree = "<group>";
 		};
+		06A3E7FE2C263BE700C6CA74 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		06A3E7FF2C263CC200C6CA74 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		06A3E8002C264C0B00C6CA74 /* MainTabbedView */ = {
+			isa = PBXGroup;
+			children = (
+				06A3E8012C264C1200C6CA74 /* MainTabbedView.swift */,
+				06A3E8032C264CF800C6CA74 /* TabbedItems.swift */,
+			);
+			path = MainTabbedView;
+			sourceTree = "<group>";
+		};
+		06A3E8052C264F0500C6CA74 /* LibraryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				06A3E8062C264F1F00C6CA74 /* LibraryScreen.swift */,
+			);
+			path = LibraryScreen;
+			sourceTree = "<group>";
+		};
 		06EBD35E2BF9716E009C7EC6 = {
 			isa = PBXGroup;
 			children = (
@@ -151,11 +188,12 @@
 		06EBD3692BF9716E009C7EC6 /* SpotifyClone */ = {
 			isa = PBXGroup;
 			children = (
+				06A3E7FF2C263CC200C6CA74 /* ViewModel */,
+				06A3E7FE2C263BE700C6CA74 /* Router */,
 				06A3E7E82C23472700C6CA74 /* Extension */,
 				06A3E7DB2C220C7D00C6CA74 /* CustomViews */,
 				06EBD37C2BFAC206009C7EC6 /* View */,
 				06EBD36A2BF9716E009C7EC6 /* SpotifyCloneApp.swift */,
-				06EBD36C2BF9716E009C7EC6 /* ContentView.swift */,
 				06A3E7F62C24E1C000C6CA74 /* LaunchScreen.storyboard */,
 				06EBD36E2BF97170009C7EC6 /* Assets.xcassets */,
 				06EBD3702BF97170009C7EC6 /* Preview Content */,
@@ -174,10 +212,13 @@
 		06EBD37C2BFAC206009C7EC6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				06A3E8002C264C0B00C6CA74 /* MainTabbedView */,
+				06A3E8052C264F0500C6CA74 /* LibraryScreen */,
 				06A3E7ED2C24AE2300C6CA74 /* LoginScreen */,
 				06A3E7D52C165BE900C6CA74 /* PlaylistScreen */,
 				06EBD3842C0CE648009C7EC6 /* SearchScreen */,
 				06EBD37D2BFAC21D009C7EC6 /* HomeScreen */,
+				06EBD36C2BF9716E009C7EC6 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,12 +330,15 @@
 				06EBD38C2C0D27C0009C7EC6 /* GridCardViewSearch.swift in Sources */,
 				06EBD3862C0CE662009C7EC6 /* SearchScreen.swift in Sources */,
 				06EBD3812BFAC37A009C7EC6 /* HeaderSectionView.swift in Sources */,
+				06A3E8042C264CF800C6CA74 /* TabbedItems.swift in Sources */,
 				06A3E7E52C220FC700C6CA74 /* HeartButton.swift in Sources */,
 				06A3E7EC2C24AE1E00C6CA74 /* LoginScreen.swift in Sources */,
 				06A3E7E12C220FA000C6CA74 /* ButtonsView.swift in Sources */,
 				06EBD3882C0D25BA009C7EC6 /* SectionSearch.swift in Sources */,
 				06A3E7E72C23425E00C6CA74 /* SectionAlbum.swift in Sources */,
+				06A3E8022C264C1200C6CA74 /* MainTabbedView.swift in Sources */,
 				06A3E7FB2C24E58A00C6CA74 /* ContainerButtonAuth.swift in Sources */,
+				06A3E8072C264F1F00C6CA74 /* LibraryScreen.swift in Sources */,
 				06A3E7E32C220FB900C6CA74 /* PlayButton.swift in Sources */,
 				06EBD36D2BF9716E009C7EC6 /* ContentView.swift in Sources */,
 				06EBD36B2BF9716E009C7EC6 /* SpotifyCloneApp.swift in Sources */,

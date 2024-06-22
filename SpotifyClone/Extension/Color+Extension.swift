@@ -8,6 +8,7 @@
 import SwiftUI
 
 extension Color {
-    static let colorStart = Color("grayDarkApp")
-    static let colorEnd = Color("blackApp")
+    static let grayDarkSpoty = Color("grayDarkApp")
+    static let blackSpoty = Color("blackApp")
+    static let graySpoty = Color("grayApp")
 }

@@ -28,12 +28,12 @@ struct HomeScreen: View {
             .listRowSpacing(30)
         }
         .background(
-                    LinearGradient(
-                        gradient: Gradient(colors: [Color.colorStart, Color.colorEnd]),
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
-                )
+            LinearGradient(
+                gradient: Gradient(colors: [.grayDarkSpoty, .blackSpoty]),
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
+        )
     }
 }
 
